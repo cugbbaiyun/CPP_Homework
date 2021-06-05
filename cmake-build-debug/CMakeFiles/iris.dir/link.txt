@@ -1,0 +1,3 @@
+"F:\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\iris.dir/objects.a
+D:\CodeBlocks\MinGW\bin\ar.exe cr CMakeFiles\iris.dir/objects.a @CMakeFiles\iris.dir\objects1.rsp
+D:\CodeBlocks\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\iris.dir/objects.a -Wl,--no-whole-archive -o iris.exe -Wl,--out-implib,libiris.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\iris.dir\linklibs.rsp
