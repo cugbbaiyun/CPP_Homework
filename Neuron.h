@@ -7,6 +7,7 @@
 
 #endif //IRIS_NEURON_H
 #include <vector>
+#include "optim.h"
 struct Neuron{
 private:
     std::vector<std::vector<double>> input;
@@ -20,7 +21,7 @@ private:
 public:
     void init(int input_num);
     void zero_grad();
-    void update(double pre_gradient);
+    void update(double pre_gradient, optim* opt);
     std::vector<double> backward(double pre_gradient);
-    double forward(vector<double> X);
+    double forward(std::vector<double> X);
 };

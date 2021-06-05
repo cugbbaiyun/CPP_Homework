@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/sourcecode/iris/Neuron.cpp" "D:/sourcecode/iris/cmake-build-debug/CMakeFiles/iris.dir/Neuron.cpp.obj"
-  "D:/sourcecode/iris/SGD.cpp" "D:/sourcecode/iris/cmake-build-debug/CMakeFiles/iris.dir/SGD.cpp.obj"
   "D:/sourcecode/iris/data_utils.cpp" "D:/sourcecode/iris/cmake-build-debug/CMakeFiles/iris.dir/data_utils.cpp.obj"
   "D:/sourcecode/iris/main.cpp" "D:/sourcecode/iris/cmake-build-debug/CMakeFiles/iris.dir/main.cpp.obj"
   )

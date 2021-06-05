@@ -86,12 +86,6 @@
 		<Unit filename="D:/sourcecode/iris/Neuron.h">
 			<Option target="iris"/>
 		</Unit>
-		<Unit filename="D:/sourcecode/iris/SGD.cpp">
-			<Option target="iris"/>
-		</Unit>
-		<Unit filename="D:/sourcecode/iris/SGD.h">
-			<Option target="iris"/>
-		</Unit>
 		<Unit filename="D:/sourcecode/iris/consts.h">
 			<Option target="iris"/>
 		</Unit>
@@ -102,6 +96,9 @@
 			<Option target="iris"/>
 		</Unit>
 		<Unit filename="D:/sourcecode/iris/main.cpp">
+			<Option target="iris"/>
+		</Unit>
+		<Unit filename="D:/sourcecode/iris/optim.h">
 			<Option target="iris"/>
 		</Unit>
 		<Unit filename="D:/sourcecode/iris/CMakeLists.txt">

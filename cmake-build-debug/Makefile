@@ -168,33 +168,6 @@ Neuron.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\iris.dir\build.make CMakeFiles/iris.dir/Neuron.cpp.s
 .PHONY : Neuron.cpp.s
 
-SGD.obj: SGD.cpp.obj
-
-.PHONY : SGD.obj
-
-# target to build an object file
-SGD.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\iris.dir\build.make CMakeFiles/iris.dir/SGD.cpp.obj
-.PHONY : SGD.cpp.obj
-
-SGD.i: SGD.cpp.i
-
-.PHONY : SGD.i
-
-# target to preprocess a source file
-SGD.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\iris.dir\build.make CMakeFiles/iris.dir/SGD.cpp.i
-.PHONY : SGD.cpp.i
-
-SGD.s: SGD.cpp.s
-
-.PHONY : SGD.s
-
-# target to generate assembly for a file
-SGD.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\iris.dir\build.make CMakeFiles/iris.dir/SGD.cpp.s
-.PHONY : SGD.cpp.s
-
 data_utils.obj: data_utils.cpp.obj
 
 .PHONY : data_utils.obj
@@ -261,9 +234,6 @@ help:
 	@echo ... Neuron.obj
 	@echo ... Neuron.i
 	@echo ... Neuron.s
-	@echo ... SGD.obj
-	@echo ... SGD.i
-	@echo ... SGD.s
 	@echo ... data_utils.obj
 	@echo ... data_utils.i
 	@echo ... data_utils.s

@@ -6,6 +6,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <cstdio>
+#include "optim.h"
 using namespace std;
 
 void Neuron::init(int input_num){
@@ -21,10 +22,14 @@ void Neuron::init(int input_num){
 void Neuron::zero_grad(){
     this->input.clear();
 }
-void Neuron::update(double pre_gradient){
+void Neuron::update(double pre_gradient, optim* opt){
     this->pre_gradient = pre_gradient;
     this->pre_weight = this->weight;
     this->pre_bias = this->bias;
+    this->bias = opt->update(this->bias, this->pre_gradient);
+    for(int i =0;i<this->weight.size();++i){
+
+    }
 }
 std::vector<double> backward(double pre_gradient);
 double forward(vector<double> X);
