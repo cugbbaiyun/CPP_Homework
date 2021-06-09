@@ -222,6 +222,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\iris.dir\build.make CMakeFiles/iris.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+module.obj: module.cpp.obj
+
+.PHONY : module.obj
+
+# target to build an object file
+module.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\iris.dir\build.make CMakeFiles/iris.dir/module.cpp.obj
+.PHONY : module.cpp.obj
+
+module.i: module.cpp.i
+
+.PHONY : module.i
+
+# target to preprocess a source file
+module.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\iris.dir\build.make CMakeFiles/iris.dir/module.cpp.i
+.PHONY : module.cpp.i
+
+module.s: module.cpp.s
+
+.PHONY : module.s
+
+# target to generate assembly for a file
+module.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\iris.dir\build.make CMakeFiles/iris.dir/module.cpp.s
+.PHONY : module.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -240,6 +267,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... module.obj
+	@echo ... module.i
+	@echo ... module.s
 .PHONY : help
 
 

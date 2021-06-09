@@ -6,26 +6,20 @@
 
 #IncludeRegexTransform: 
 
+D:/sourcecode/iris/Neuron.h
+iostream
+-
+vector
+-
+optim.h
+D:/sourcecode/iris/optim.h
+consts.h
 D:/sourcecode/iris/consts.h
-string
--
 
-D:/sourcecode/iris/data_utils.cpp
-data_utils.h
-D:/sourcecode/iris/data_utils.h
-fstream
+D:/sourcecode/iris/consts.h
+random
 -
-climits
--
-cctype
--
-sstream
--
-ctime
--
-cstdlib
--
-algorithm
+string
 -
 
 D:/sourcecode/iris/data_utils.h
@@ -47,4 +41,28 @@ data_utils.h
 D:/sourcecode/iris/data_utils.h
 consts.h
 D:/sourcecode/iris/consts.h
+module.h
+D:/sourcecode/iris/module.h
+optim.h
+D:/sourcecode/iris/optim.h
+cstdlib
+-
+chrono
+-
+ctime
+-
+
+D:/sourcecode/iris/module.h
+vector
+-
+Neuron.h
+D:/sourcecode/iris/Neuron.h
+optim.h
+D:/sourcecode/iris/optim.h
+random
+-
+
+D:/sourcecode/iris/optim.h
+iostream
+-
 

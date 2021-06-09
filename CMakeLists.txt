@@ -3,4 +3,4 @@ project(iris)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(iris main.cpp consts.h data_utils.cpp data_utils.h Neuron.h Neuron.cpp optim.h)
+add_executable(iris main.cpp consts.h data_utils.cpp data_utils.h Neuron.h Neuron.cpp optim.h module.h module.cpp)

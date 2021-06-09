@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/iris.dir/Neuron.cpp.obj"
   "CMakeFiles/iris.dir/data_utils.cpp.obj"
   "CMakeFiles/iris.dir/main.cpp.obj"
+  "CMakeFiles/iris.dir/module.cpp.obj"
   "iris.exe"
   "iris.exe.manifest"
   "iris.pdb"

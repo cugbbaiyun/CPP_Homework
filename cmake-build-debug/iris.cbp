@@ -98,6 +98,12 @@
 		<Unit filename="D:/sourcecode/iris/main.cpp">
 			<Option target="iris"/>
 		</Unit>
+		<Unit filename="D:/sourcecode/iris/module.cpp">
+			<Option target="iris"/>
+		</Unit>
+		<Unit filename="D:/sourcecode/iris/module.h">
+			<Option target="iris"/>
+		</Unit>
 		<Unit filename="D:/sourcecode/iris/optim.h">
 			<Option target="iris"/>
 		</Unit>

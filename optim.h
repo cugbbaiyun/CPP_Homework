@@ -5,7 +5,7 @@
 #ifndef IRIS_OPTIM_H
 #define IRIS_OPTIM_H
 
-#endif //IRIS_OPTIM_H
+#include <iostream>
 struct optim{
 public:
     double lr = 0.01;
@@ -48,3 +48,4 @@ public:
 private:
     double gm = 0.9;
 };
+#endif //IRIS_OPTIM_H
