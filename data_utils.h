@@ -30,4 +30,6 @@ std::vector<MyData> read_data(std::string FileName);
 std::map<std::string, int> read_names(std::vector<MyData> datas);
 int name2class(std::string name, std::map<std::string, int> names);
 std::pair<std::vector<std::vector<double>>, std::vector<int>> getdataxy(std::vector<MyData> datas, std::map<std::string, int> names,bool random=1);
+std::pair<std::vector<int>, std::vector<int>> divide(int len, int train_num);
 void normalize(std::vector<std::vector<double>>& x);
+std::pair<std::vector<std::vector<double>>, std::vector<int>> batch(std::pair<std::vector<std::vector<double>>, std::vector<int>>& datas, std::vector<int> labels);
