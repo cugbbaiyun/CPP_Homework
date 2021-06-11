@@ -10,6 +10,9 @@
 #include <ctime>
 #include <cstdlib>
 #include <algorithm>
+#include <set>
+#include <cstdlib>
+#include <cstdio>
 
 using namespace std;
 
@@ -85,4 +88,30 @@ void normalize(vector<vector<double>>& x){
             c[i] = (c[i] - min_x) / (max_x - min_x);
         }
     }
+}
+pair<vector<int>, vector<int>> divide(int len, int train_num){
+    pair<vector<int>, vector<int>> ret;
+    set<int> nums;
+    for(int i =0;i<train_num;++i){
+        int t = int(rand()) % len;
+        while(nums.find(t) != nums.end()){
+            t = rand() % len;
+        }
+        nums.insert(t);
+        ret.first.push_back(t);
+    }
+    for(int j = 0;j < len;++j){
+        if(nums.find(j) == nums.end()){
+            ret.second.push_back(j);
+        }
+    }
+    return ret;
+}
+pair<vector<vector<double>>, vector<int>> batch(pair<vector<vector<double>>, vector<int>>& datas, std::vector<int> labels){
+    pair<vector<vector<double>>, vector<int>> ret;
+    for(int i =0 ;i < labels.size();++i){
+        ret.first.push_back(datas.first[labels[i]]);
+        ret.second.push_back(datas.second[labels[i]]);
+    }
+    return ret;
 }
